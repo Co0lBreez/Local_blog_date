@@ -101,8 +101,11 @@ theme: hexo-theme-matery-master # 默认值：landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/Co0lBreez/Co0lBreez.github.io.git
+  branch: master
 
 ## 搜索插件
 search:
