@@ -5,7 +5,7 @@
 # Site
 title: 枕头递我一下
 subtitle: 「枕头递我一下」的小站
-description: 基于hexo搭建的个人Blog
+description: 怕什么真理无穷，进一寸有进一寸的欢喜
 keywords:
 author: 枕头递我一下
 language: zh-CN
@@ -44,14 +44,14 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false # 语法高亮。默认值为 true
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
+  enable: true  #默认值为 false
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -106,12 +106,16 @@ deploy:
   type: git
   repo: https://github.com/Co0lBreez/Co0lBreez.github.io.git
   branch: master
-  message: 我崩溃了(〃￣︶￣)
+  message: 上次更新： {{ now('YYYY-MM-DD HH:mm:ss') }})
 
 ## 搜索插件
 search:
   path: search.xml
   field: post
+  format: striptags
+  limit: 10000
+
+
 
 ## 中文链接转拼音插件
 permalink_pinyin:
@@ -134,3 +138,47 @@ postInfo:
   totalCount: true # 设置站点文章总字数统计为 true.
   min2read: true # 阅读时长.
   readCount: true # 阅读次数.
+
+aplayer:  # aplayer音乐播放器
+  meting: true  # 基于aplayerr的MetingJS音乐播放器
+
+# live2d 看板娘
+
+## 添加动画live2d模块  npm install --save hexo-helper-live2d
+## 下载动画人物库 npm install live2d-widget-model-z16 -D
+live2d:
+  enable: false  # 开启/关闭
+  scriptFrom: local # 默认
+  pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
+  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
+  pluginModelPath: assets/ # 模型文件相对与插件根目录路径
+  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
+  debug: false # 调试, 是否在控制台输出日志
+  model:
+    use: live2d-widget-model-hibiki
+  display:
+    position: left #动画位置
+    width: 150
+    height: 330 # 190
+    # 位置配置，这个在左侧边栏位置很居中
+    hOffset: 50  # 调节水平位置
+    vOffset: 10  # 调节垂直位置 -5
+  mobile:
+    show: false # 是否在移动设备上显示
+    scale: 0.5 # 移动设备上的缩放
+  react:
+    opacityDefault: 0.7
+    opacityOnHover: 0.8
+
+# 图片懒加载
+
+lazyload:
+  enable: true 
+  onlypost: false  # 是否只对文章的图片做懒加载
+  loadingImg: /medias/images/loading.gif # eg ./images/loading.gif
+
+
+
+
+
+

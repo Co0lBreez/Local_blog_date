@@ -4,18 +4,48 @@ menu:
   Index:
     url: /
     icon: fas fa-home
-  Tags:
-    url: /tags
-    icon: fas fa-tags
-  Categories:
-    url: /categories
-    icon: fas fa-bookmark
-  Archives:
-    url: /archives
-    icon: fas fa-archive
+  媒体:  
+    url: /
+    icon: fas fa-music
+    children:
+      - name: 音乐
+        url: /musics
+        icon: fas fa-music
+      # - name: 相册
+      #   url: /galleries
+      #   icon: fas fa-image    
+  文章:
+    icon: fas fa-book
+    children:
+      - name: 标签
+        url: /tags
+        icon: fas fa-tags
+      - name: 分类
+        url: /categories
+        icon: fas fa-bookmark
+      - name: 归档
+        url: /archives
+        icon: fas fa-archive
+      
+  # Tags: # 标签、分类、归档。欲启用请取消注释
+  #   url: /tags
+  #   icon: fas fa-tags
+  # Categories:
+  #   url: /categories
+  #   icon: fas fa-bookmark
+  # Archives:
+  #   url: /archives
+  #   icon: fas fa-archive
   About:
-    url: /about
-    icon: fas fa-user-circle
+    url: /
+    icon: fas fa-laptop
+    children:
+      - name: 关于我
+        url: /about
+        icon: fas fa-user-circle
+      - name: 关于本站
+        url: 2022/07/31/about-the-site/
+        icon: fas fa-laptop
   # Contact: # 默认开启，取消注释即可
   #   url: /contact
   #   icon: fas fa-comments
@@ -42,10 +72,10 @@ menu:
 # Website start time.
 # 站点运行开始时间.
 time:
-  enable: false
-  year: 2019 # 年份
-  month: 06 # 月份
-  date: 28 # 日期
+  enable: true
+  year: 2022 # 年份
+  month: 07 # 月份
+  date: 31 # 日期
   hour: 00 # 小时
   minute: 00 # 分钟
   second: 00 # 秒
@@ -72,23 +102,23 @@ dream:
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: true
+  enable: false
   title: #非吸底模式有效
     enable: true
-    show: 听听音乐
+    show: 切换/刷新页面会停止当前播放
   autoHide: true    # hide automaticaly
-  server: netease   # require	music platform: netease, tencent, kugou, xiami, baidu
-  type: playlist    #require song, playlist, album, search, artist
-  id: 503838841     # require	song id / playlist id / album id / search keyword
-  fixed: true       # 开启吸底模式
-  autoplay: false   # 是否自动播放
+  server: tencent   # require	music platform: netease, tencent, kugou, xiami, baidu
+  type: playlist    # require song, playlist, album, search, artist
+  id: 8570209961     # require	song id / playlist id / album id / search keyword
+  fixed: false       # 开启吸底模式
+  autoplay: false    # 是否自动播放
   theme: '#42b983'
   loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
   order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
-  preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
-  listFolded: true  # 列表默认折叠
-  hideLrc: true     # 隐藏歌词
+  preload: 'none'   # 预加载，可选值: 'none', 'metadata', 'auto'
+  volume: 0.2       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  listFolded: false  # 列表默认折叠
+  hideLrc: false     # 隐藏歌词
 
 # Whether to display the videos.
 # 是否在首页显示视频.
@@ -116,8 +146,8 @@ recommend:
 
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
-favicon: /favicon.png
-logo: /medias/logo.png
+favicon: https://s2.loli.net/2022/08/03/RTg1rwj6dUeaiSJ.png # /favicon.png
+logo: https://s2.loli.net/2022/08/03/RTg1rwj6dUeaiSJ.png # /medias/logo.png
 
 # The configuration of the second button in the home banner,
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
@@ -161,7 +191,7 @@ code:
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
   enable: true
-  title: 你的赏识是我前进的动力
+  title: 富婆~饿~饭饭🤤🤤🤤
   wechat: /medias/reward/wechat.png
   alipay: /medias/reward/alipay.jpg
 
@@ -203,8 +233,8 @@ clicklove:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: /medias/avatar.png
-  career: 流氓无产者
+  avatar: https://s2.loli.net/2022/08/03/RTg1rwj6dUeaiSJ.png  # /medias/avatar.png
+  career: 自遣人
   introduction: 得即高歌失即休，多愁多恨亦悠悠。今朝有酒今朝醉，明日愁来明日愁。
 
 
@@ -261,15 +291,60 @@ mySkills:
 myGallery:
   enable: true
   data:
-    # - /medias/featureimages/0.png
-    - /medias/featureimages/1.jpg
-    - /medias/featureimages/2.jpg
-    # - /medias/featureimages/3.jpg
-    - /medias/featureimages/4.jpg
-    # - /medias/featureimages/5.jpg
-    - /medias/featureimages/6.jpg
-    # - /medias/featureimages/7.jpg
-    - /medias/featureimages/8.jpg
+  # - /medias/featureimages/0.jpg
+  # - /medias/featureimages/1.jpg
+  # - /medias/featureimages/2.jpg
+  # - /medias/featureimages/3.jpg
+  # - /medias/featureimages/4.jpg
+  # - /medias/featureimages/5.jpg
+  # - /medias/featureimages/6.jpg
+  # - /medias/featureimages/7.jpg
+  # - /medias/featureimages/8.jpg
+  # - /medias/featureimages/9.jpg
+  # - /medias/featureimages/10.jpg
+  # - /medias/featureimages/11.jpg
+  # - /medias/featureimages/12.jpg
+  # - /medias/featureimages/13.jpg
+  # - /medias/featureimages/14.jpg
+  # - /medias/featureimages/15.jpg
+  # - /medias/featureimages/16.jpg
+  # - /medias/featureimages/17.jpg
+  # - /medias/featureimages/18.jpg
+  # - /medias/featureimages/19.jpg
+  # - /medias/featureimages/20.jpg
+  # - /medias/featureimages/21.jpg
+  # - /medias/featureimages/22.jpg
+  # - /medias/featureimages/23.jpg
+
+# 下列图片使用网络图床`SM.MS`
+
+  - https://s2.loli.net/2022/08/03/Ky7iJAxEj35wnuB.jpg
+  - https://s2.loli.net/2022/08/03/v5JIZCl3AwRc9rX.jpg
+  - https://s2.loli.net/2022/08/03/Kjt7NBfYnGQEPew.jpg
+  - https://s2.loli.net/2022/08/03/TiR8VlnOu4QIvKP.jpg
+  - https://s2.loli.net/2022/08/03/y4fHinwdsBklZqC.jpg
+  - https://s2.loli.net/2022/08/03/UDnA1lqYoZ2Eh47.jpg
+  - https://s2.loli.net/2022/08/03/CnI396Li5bDosup.jpg
+  - https://s2.loli.net/2022/08/03/NoiLZISrH2Oksfq.jpg
+  - https://s2.loli.net/2022/08/03/S4qhUrLjoxJ27HR.jpg
+  - https://s2.loli.net/2022/08/03/adp7AySk9O6tz2L.jpg
+  - https://s2.loli.net/2022/08/03/nM4EiLkdr6ymfaA.jpg
+  - https://s2.loli.net/2022/08/03/USt9mqegXIuixk2.jpg
+  - https://s2.loli.net/2022/08/03/fLwydTOobvq7GsZ.jpg
+  - https://s2.loli.net/2022/08/03/Ng3Fk4EyqTRQ81x.jpg
+  - https://s2.loli.net/2022/08/03/tYIvkxa3T2GKjed.jpg
+  - https://s2.loli.net/2022/08/03/zVGeHp28ZnoQhDW.jpg
+  - https://s2.loli.net/2022/08/03/aNU8hPQixjRTcFq.jpg
+  - https://s2.loli.net/2022/08/03/E4oNVFS6TI2Mn3Q.jpg
+  - https://s2.loli.net/2022/08/03/3A87RmVasJP5znQ.jpg
+  - https://s2.loli.net/2022/08/03/a2LqIZufbxHdY41.jpg
+  - https://s2.loli.net/2022/08/03/cyKI7ewkAuPjToU.jpg
+  - https://s2.loli.net/2022/08/03/msI5WftnkGu4BDM.jpg
+  - https://s2.loli.net/2022/08/03/HwFbOK18WTSM2uD.jpg
+  - https://s2.loli.net/2022/08/03/wuS3Bp9PWV8CoJm.jpg
+
+
+
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
@@ -397,8 +472,8 @@ githubLink:
 # 阅读文章的密码验证功能，如要使用此功能请激活该配置项，并在对应文章的Front-matter中写上'password'的键和加密后的密文即可.
 # 请注意：为了保证密码原文不会被泄露到网页中，文章的密码必须是通过'SHA256'加密的，这样就不会被破解.
 verifyPassword:
-  enable: false
-  promptMessage: 请输入访问本文章的密码
+  enable: true 
+  promptMessage: 哦豁~付费内容
   errorMessage: 密码错误，将返回主页！
 
 # busuanzi(http://busuanzi.ibruce.info/) website statistics
@@ -470,14 +545,14 @@ libs:
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
-- /medias/featureimages/0.png
-- /medias/featureimages/1.jpg
-- /medias/featureimages/2.jpg
-- /medias/featureimages/3.jpg
-- /medias/featureimages/4.jpg
-- /medias/featureimages/5.jpg
-- /medias/featureimages/6.jpg
-- /medias/featureimages/7.jpg
+# - /medias/featureimages/0.jpg
+# - /medias/featureimages/1.jpg
+# - /medias/featureimages/2.jpg
+# - /medias/featureimages/3.jpg
+# - /medias/featureimages/4.jpg
+# - /medias/featureimages/5.jpg
+# - /medias/featureimages/6.jpg
+# - /medias/featureimages/7.jpg
 # - /medias/featureimages/8.jpg
 # - /medias/featureimages/9.jpg
 # - /medias/featureimages/10.jpg
@@ -494,6 +569,33 @@ featureImages:
 # - /medias/featureimages/21.jpg
 # - /medias/featureimages/22.jpg
 # - /medias/featureimages/23.jpg
+
+# 下列图片使用网络图床`SM.MS`
+
+  - https://s2.loli.net/2022/08/03/Ky7iJAxEj35wnuB.jpg
+  - https://s2.loli.net/2022/08/03/v5JIZCl3AwRc9rX.jpg
+  - https://s2.loli.net/2022/08/03/Kjt7NBfYnGQEPew.jpg
+  - https://s2.loli.net/2022/08/03/TiR8VlnOu4QIvKP.jpg
+  - https://s2.loli.net/2022/08/03/y4fHinwdsBklZqC.jpg
+  - https://s2.loli.net/2022/08/03/UDnA1lqYoZ2Eh47.jpg
+  - https://s2.loli.net/2022/08/03/CnI396Li5bDosup.jpg
+  - https://s2.loli.net/2022/08/03/NoiLZISrH2Oksfq.jpg
+  - https://s2.loli.net/2022/08/03/S4qhUrLjoxJ27HR.jpg
+  - https://s2.loli.net/2022/08/03/adp7AySk9O6tz2L.jpg
+  - https://s2.loli.net/2022/08/03/nM4EiLkdr6ymfaA.jpg
+  - https://s2.loli.net/2022/08/03/USt9mqegXIuixk2.jpg
+  - https://s2.loli.net/2022/08/03/fLwydTOobvq7GsZ.jpg
+  - https://s2.loli.net/2022/08/03/Ng3Fk4EyqTRQ81x.jpg
+  - https://s2.loli.net/2022/08/03/tYIvkxa3T2GKjed.jpg
+  - https://s2.loli.net/2022/08/03/zVGeHp28ZnoQhDW.jpg
+  - https://s2.loli.net/2022/08/03/aNU8hPQixjRTcFq.jpg
+  - https://s2.loli.net/2022/08/03/E4oNVFS6TI2Mn3Q.jpg
+  - https://s2.loli.net/2022/08/03/3A87RmVasJP5znQ.jpg
+  - https://s2.loli.net/2022/08/03/a2LqIZufbxHdY41.jpg
+  - https://s2.loli.net/2022/08/03/cyKI7ewkAuPjToU.jpg
+  - https://s2.loli.net/2022/08/03/msI5WftnkGu4BDM.jpg
+  - https://s2.loli.net/2022/08/03/HwFbOK18WTSM2uD.jpg
+  - https://s2.loli.net/2022/08/03/wuS3Bp9PWV8CoJm.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
@@ -586,7 +688,7 @@ instantpage:
   enable: true
 
 # banner 是否每日切换.
-# 若为 false, 则 banner 默认为 /medias/banner/0.jpg
+# 若为 false, 则 banner 默认为 /medias/banner/0.jpg 在`bg-cover-content`里更改
 banner:
   enable: true
 
