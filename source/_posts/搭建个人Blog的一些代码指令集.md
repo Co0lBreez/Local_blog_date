@@ -6,6 +6,7 @@ summary: 本文主要是些命令（Git、Hexo）的集合，并不起指导作�
 password: 
 categories: 代码指令
 ---
+# 搭建个人Blog的一些代码指令集
 
 ## 写在前面
 
