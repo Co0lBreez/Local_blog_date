@@ -72,8 +72,8 @@ Ctrl C Ctrl V 于浏览器与本地间，
 
 ![](/medias/images/posts/load_spend.png)
 
-| requests | transferred | resources | Finish  | DOMContentLoaded | Load    |
-| -------- | ----------- | --------- | ------- | ---------------- | ------- |
-| 36       | 833 KB      | 1.6 MB    | 30.79 s | 30.03 s          | 30.52 s |
+| requests | transferred | resources | Finish   | DOMContentLoaded | Load    |
+| -------- | ----------- | --------- | -------- | ---------------- | ------- |
+| 37       | 837 KB      | 1.6 MB    | 2.2  min | 30.03 s          | 30.52 s |
 
 

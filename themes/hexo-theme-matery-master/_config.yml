@@ -11,6 +11,9 @@ menu:
       - name: 音乐
         url: /musics
         icon: fas fa-music
+      - name: 视频
+        url: /videos
+        icon: fas fa-video
       # - name: 相册
       #   url: /galleries
       #   icon: fas fa-image    

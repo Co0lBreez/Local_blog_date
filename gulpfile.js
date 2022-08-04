@@ -155,8 +155,6 @@ gulp.task(
         gulp.parallel("deploy")
     )
 );
-
-// 默认任务
 gulp.task(
     "ci",
     gulp.series(
@@ -165,7 +163,6 @@ gulp.task(
         gulp.parallel("compressHtml", "compressCss", "compressJs", "compressImage")
     )
 );
-
 // 默认任务
 gulp.task(
     "default",
@@ -174,3 +171,4 @@ gulp.task(
     )
 );
 //Gulp4最大的一个改变就是gulp.task函数现在只支持两个参数，分别是任务名和运行任务的函数
+
