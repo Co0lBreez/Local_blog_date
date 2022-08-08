@@ -11,9 +11,9 @@ menu:
       - name: 音乐
         url: /musics
         icon: fas fa-music
-      - name: 视频
-        url: /videos
-        icon: fas fa-video
+      # - name: 视频
+      #   url: /videos
+      #   icon: fas fa-video
       # - name: 相册
       #   url: /galleries
       #   icon: fas fa-image    
@@ -321,30 +321,30 @@ myGallery:
 
 # 下列图片使用网络图床`SM.MS`
 
-  - https://s2.loli.net/2022/08/03/Ky7iJAxEj35wnuB.jpg
-  - https://s2.loli.net/2022/08/03/v5JIZCl3AwRc9rX.jpg
-  - https://s2.loli.net/2022/08/03/Kjt7NBfYnGQEPew.jpg
-  - https://s2.loli.net/2022/08/03/TiR8VlnOu4QIvKP.jpg
-  - https://s2.loli.net/2022/08/03/y4fHinwdsBklZqC.jpg
-  - https://s2.loli.net/2022/08/03/UDnA1lqYoZ2Eh47.jpg
-  - https://s2.loli.net/2022/08/03/CnI396Li5bDosup.jpg
-  - https://s2.loli.net/2022/08/03/NoiLZISrH2Oksfq.jpg
-  - https://s2.loli.net/2022/08/03/S4qhUrLjoxJ27HR.jpg
-  - https://s2.loli.net/2022/08/03/adp7AySk9O6tz2L.jpg
-  - https://s2.loli.net/2022/08/03/nM4EiLkdr6ymfaA.jpg
-  - https://s2.loli.net/2022/08/03/USt9mqegXIuixk2.jpg
-  - https://s2.loli.net/2022/08/03/fLwydTOobvq7GsZ.jpg
-  - https://s2.loli.net/2022/08/03/Ng3Fk4EyqTRQ81x.jpg
-  - https://s2.loli.net/2022/08/03/tYIvkxa3T2GKjed.jpg
-  - https://s2.loli.net/2022/08/03/zVGeHp28ZnoQhDW.jpg
-  - https://s2.loli.net/2022/08/03/aNU8hPQixjRTcFq.jpg
-  - https://s2.loli.net/2022/08/03/E4oNVFS6TI2Mn3Q.jpg
-  - https://s2.loli.net/2022/08/03/3A87RmVasJP5znQ.jpg
-  - https://s2.loli.net/2022/08/03/a2LqIZufbxHdY41.jpg
-  - https://s2.loli.net/2022/08/03/cyKI7ewkAuPjToU.jpg
-  - https://s2.loli.net/2022/08/03/msI5WftnkGu4BDM.jpg
-  - https://s2.loli.net/2022/08/03/HwFbOK18WTSM2uD.jpg
-  - https://s2.loli.net/2022/08/03/wuS3Bp9PWV8CoJm.jpg
+  - https://s2.loli.net/2022/08/08/9bCI1Dqnd72PVB5.jpg
+  - https://s2.loli.net/2022/08/08/2gaXHflep8cJ6wV.jpg
+  - https://s2.loli.net/2022/08/08/59nY7tvjTmLhNBO.jpg
+  - https://s2.loli.net/2022/08/08/XVeghmM95A8F3Ts.jpg
+  - https://s2.loli.net/2022/08/08/GmajKJsICAVk98O.jpg
+  - https://s2.loli.net/2022/08/08/Aekx54OwacJLZrS.jpg
+  - https://s2.loli.net/2022/08/08/mEXYc4tfghPpnFJ.jpg
+  - https://s2.loli.net/2022/08/08/vCrghfm3EqTb9Pl.jpg
+  - https://s2.loli.net/2022/08/08/lHqYWaFPv4bjXyn.jpg
+  - https://s2.loli.net/2022/08/08/zLimkN1WEoJbYRu.jpg
+  - https://s2.loli.net/2022/08/08/vhJ3F8jg9codpny.jpg
+  - https://s2.loli.net/2022/08/08/WQirBxeGPYNU9TC.jpg
+  - https://s2.loli.net/2022/08/08/D5Izqo6mOTuLfh1.jpg
+  - https://s2.loli.net/2022/08/08/z8enaxZsB3r2Rg7.jpg
+  - https://s2.loli.net/2022/08/08/7JmRXqp6UPOV2tI.jpg
+  - https://s2.loli.net/2022/08/08/hxWal3KrIBTSoJL.jpg
+  - https://s2.loli.net/2022/08/08/Mw9LUP53R1qWH7d.jpg
+  - https://s2.loli.net/2022/08/08/YGCZXrKdqboBvH3.jpg
+  - https://s2.loli.net/2022/08/08/WaXKTRBewQt1Emx.jpg
+  - https://s2.loli.net/2022/08/08/vhfB3oEbk6Fw8TS.jpg
+  - https://s2.loli.net/2022/08/08/FIAVjU5Yny3ZPGe.jpg
+  - https://s2.loli.net/2022/08/08/XeC9LnRstxFA3JS.jpg
+  - https://s2.loli.net/2022/08/08/ck9RYiWtglvsSVB.jpg
+  - https://s2.loli.net/2022/08/08/RpQjn7Sx9Ekg523.jpg
 
 
 
@@ -575,30 +575,30 @@ featureImages:
 
 # 下列图片使用网络图床`SM.MS`
 
-  - https://s2.loli.net/2022/08/03/Ky7iJAxEj35wnuB.jpg
-  - https://s2.loli.net/2022/08/03/v5JIZCl3AwRc9rX.jpg
-  - https://s2.loli.net/2022/08/03/Kjt7NBfYnGQEPew.jpg
-  - https://s2.loli.net/2022/08/03/TiR8VlnOu4QIvKP.jpg
-  - https://s2.loli.net/2022/08/03/y4fHinwdsBklZqC.jpg
-  - https://s2.loli.net/2022/08/03/UDnA1lqYoZ2Eh47.jpg
-  - https://s2.loli.net/2022/08/03/CnI396Li5bDosup.jpg
-  - https://s2.loli.net/2022/08/03/NoiLZISrH2Oksfq.jpg
-  - https://s2.loli.net/2022/08/03/S4qhUrLjoxJ27HR.jpg
-  - https://s2.loli.net/2022/08/03/adp7AySk9O6tz2L.jpg
-  - https://s2.loli.net/2022/08/03/nM4EiLkdr6ymfaA.jpg
-  - https://s2.loli.net/2022/08/03/USt9mqegXIuixk2.jpg
-  - https://s2.loli.net/2022/08/03/fLwydTOobvq7GsZ.jpg
-  - https://s2.loli.net/2022/08/03/Ng3Fk4EyqTRQ81x.jpg
-  - https://s2.loli.net/2022/08/03/tYIvkxa3T2GKjed.jpg
-  - https://s2.loli.net/2022/08/03/zVGeHp28ZnoQhDW.jpg
-  - https://s2.loli.net/2022/08/03/aNU8hPQixjRTcFq.jpg
-  - https://s2.loli.net/2022/08/03/E4oNVFS6TI2Mn3Q.jpg
-  - https://s2.loli.net/2022/08/03/3A87RmVasJP5znQ.jpg
-  - https://s2.loli.net/2022/08/03/a2LqIZufbxHdY41.jpg
-  - https://s2.loli.net/2022/08/03/cyKI7ewkAuPjToU.jpg
-  - https://s2.loli.net/2022/08/03/msI5WftnkGu4BDM.jpg
-  - https://s2.loli.net/2022/08/03/HwFbOK18WTSM2uD.jpg
-  - https://s2.loli.net/2022/08/03/wuS3Bp9PWV8CoJm.jpg
+  - https://s2.loli.net/2022/08/08/9bCI1Dqnd72PVB5.jpg
+  - https://s2.loli.net/2022/08/08/2gaXHflep8cJ6wV.jpg
+  - https://s2.loli.net/2022/08/08/59nY7tvjTmLhNBO.jpg
+  - https://s2.loli.net/2022/08/08/XVeghmM95A8F3Ts.jpg
+  - https://s2.loli.net/2022/08/08/GmajKJsICAVk98O.jpg
+  - https://s2.loli.net/2022/08/08/Aekx54OwacJLZrS.jpg
+  - https://s2.loli.net/2022/08/08/mEXYc4tfghPpnFJ.jpg
+  - https://s2.loli.net/2022/08/08/vCrghfm3EqTb9Pl.jpg
+  - https://s2.loli.net/2022/08/08/lHqYWaFPv4bjXyn.jpg
+  - https://s2.loli.net/2022/08/08/zLimkN1WEoJbYRu.jpg
+  - https://s2.loli.net/2022/08/08/vhJ3F8jg9codpny.jpg
+  - https://s2.loli.net/2022/08/08/WQirBxeGPYNU9TC.jpg
+  - https://s2.loli.net/2022/08/08/D5Izqo6mOTuLfh1.jpg
+  - https://s2.loli.net/2022/08/08/z8enaxZsB3r2Rg7.jpg
+  - https://s2.loli.net/2022/08/08/7JmRXqp6UPOV2tI.jpg
+  - https://s2.loli.net/2022/08/08/hxWal3KrIBTSoJL.jpg
+  - https://s2.loli.net/2022/08/08/Mw9LUP53R1qWH7d.jpg
+  - https://s2.loli.net/2022/08/08/YGCZXrKdqboBvH3.jpg
+  - https://s2.loli.net/2022/08/08/WaXKTRBewQt1Emx.jpg
+  - https://s2.loli.net/2022/08/08/vhfB3oEbk6Fw8TS.jpg
+  - https://s2.loli.net/2022/08/08/FIAVjU5Yny3ZPGe.jpg
+  - https://s2.loli.net/2022/08/08/XeC9LnRstxFA3JS.jpg
+  - https://s2.loli.net/2022/08/08/ck9RYiWtglvsSVB.jpg
+  - https://s2.loli.net/2022/08/08/RpQjn7Sx9Ekg523.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
