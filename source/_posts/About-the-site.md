@@ -4,7 +4,7 @@ date: 2022-07-31 03:44:30
 tags: 开始
 top: true
 summary: 本站是基于 Hexo 与 GitHub Pages 搭建而成的个人博客
-img: https://s2.loli.net/2022/08/03/wuS3Bp9PWV8CoJm.jpg
+img: https://s2.loli.net/2022/08/08/ck9RYiWtglvsSVB.jpg
 ---
 
 ## 关于本站
