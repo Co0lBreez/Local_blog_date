@@ -1,11 +1,11 @@
----
+
 title: 搭建个人Blog的一些代码指令集
 date: 2022-07-31 05:39:06
 tags: 代码指令集
 summary: 本文主要是些命令（Git、Hexo）的集合，并不起指导作用，只是事后整理出来，供个人备忘
 password: 
-categories: 代码指令
----
+categories: 笔记
+
 # 搭建个人Blog的一些代码指令集
 
 ## 写在前面
@@ -28,7 +28,7 @@ categories: 代码指令
 
 ## 代码命令行
 
-```bash
+```batch
 # 本地用户名
 git config --global user.name "Co0lBreez"
 # 本地用户邮箱
@@ -39,9 +39,9 @@ ssh-keygen -t rsa -C "asmortal@qq.com"
 ssh -T git@github.com
 ```
 
----
 
-```bash
+
+```batch
 # Git 初始化
 git init
 # 提交文件（非上传）
@@ -54,9 +54,9 @@ git remote add origin git@github.com:Co0lBreez/Co0lBreez.github.io.git
 git push -u origin master
 ```
 
----
 
-```bash
+
+```batch
 npm install hexo-cli -g
 hexo init blog
 cd blog
@@ -68,7 +68,7 @@ hexo server
 
 1.安装 hexo-deployer-git（部署插件）
 
-   ```bash
+   ```batch
    npm install hexo-deployer-git --save
    ```
 
@@ -84,7 +84,7 @@ hexo server
 
    3.更新与部署
 
-```bash
+```batch
 hexo clean	# hexo c 清除缓存文件 (db.json) 和已生成的静态文件 (public)
 hexo generate	# hexo g 生成静态文件
 hexo deploy	# hexo d 部署网站	
@@ -96,7 +96,7 @@ hexo deploy	# hexo d 部署网站
 
 执行以下命令
 
-```bash
+```batch
 git pull --rebase origin master	# 拉取
 git push -u origin master	#	推送
 ```

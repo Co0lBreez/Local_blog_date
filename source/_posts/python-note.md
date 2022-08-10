@@ -13,16 +13,18 @@ summary: 一些Python相关的笔记
 tags: Python
 categories: 笔记
 ---
+# Python笔记
+[Python官方中文文档](https://docs.python.org/zh-cn/3/index.html)
 ## Python的简单应用
 
-### Python图片质量压缩
+### 图片质量压缩
 
 ```python
 
 from PIL import Image
 import os
 
-# 要使用此代码，需导入`Image`库：`pip install Image`
+# 要使用此代码，需导入`Image`模块：`pip install Image`
 
 # 欲处理的图片的目录，注意结尾一定要以`/`结束
 # file_in = "S:/Projects/Python/app/input/"
@@ -75,7 +77,7 @@ print("输出目录为：" + file_in)
 from PIL import Image
 import os
 
-# 要使用此代码，需导入`Image`库：`pip install Image`
+# 要使用此代码，需导入`Image`模块：`pip install Image`
 
 # 欲处理的图片的目录，注意结尾一定要以`/`结束
 # file_in = "S:/Projects/Python/app/input/"
@@ -128,7 +130,7 @@ print("输出目录为：" + file_in)
 from PIL import Image
 import os
 
-# 要使用此代码，需导入`Image`库：`pip install Image`
+# 要使用此代码，需导入`Image`模块：`pip install Image`
 
 # 欲处理的图片的目录，注意结尾一定要以`/`结束
 # file_in = "S:/Projects/Python/app/input/"
@@ -188,6 +190,52 @@ for file in workdir:
 print("输出目录为：" + pic_out)
 
 ```
+### 图片按比例缩放
+
+上面的代码只是实现了对图像品质的压缩，而非尺寸。
+
+`resize`可以调整图片的尺寸，但需要定义宽高的值，如：
+
+```python
+img.resize((1920,1080))
+```
+我想的是有没有一种函数能按比例缩放，就是像在PS里面一样，只要勾选 `保持比例` ，那么在调整宽高的一个值时，另一个值就会自动改变。换到Python里就是定义其中的一个值就行了，但我试了，会报错……
+
+搜了一下没有现成能用的，但还是有一种解决方法，那就是定义两个变量（即长和宽），首先是确定分辨率，比如720或1080（这个值可以自定义），这是第一个变量，高度（也可以是宽度，后面同理）；然后计算缩放比，缩放比乘以宽度就是第二个变量。
+
+光说可能有点抽象……下面的代码一看就明白：
+
+```python
+# 设置你要缩放的分辨率（高度）
+size = 1080
+# 获取宽高
+width, height = img.size[0], img.size[1]
+# 缩放率
+scale = size / height
+# 缩放后的宽度
+width_size = int(width * scale)
+# resize
+img_resize = img.resize((width_size, size))
+# 文件路径+`file_out`,质量
+img_resize.save(pic_out file_out_original_name, quality=pic_quality)
+```
+>`img.size` 的值是一个列表，如`print(img.size)` 会返回一个 `(1920,1080)`的值。 `img.size[0]` 的意思就是取其中的第一个值，也就是宽。
+
+代码的一些地方可以优化，比如重复的代码、代码块太多，可以自定义函数，然后调用，不过我还不会这些……但这里还可以这样优化一下：
+
+```python
+if os.path.exists(pic_out):
+    print("文件目录已存在，跳过创建……")
+else:
+    os.makedirs(pic_out)
+```
+优化为：
+
+```python
+if not os.path.exists(pic_out):
+    os.makedirs(pic_out)
+```
+由 `if` `else` 优化为了 `if` 。主要是不知道 `if not` 这种用法……
 
 ## OS模块
 
@@ -202,3 +250,24 @@ os.path.isdir('S:/test')
 ```python
 os.path.exists('S:/test')
 ```
+
+获取文件所在目录
+
+```python
+os.path.dirname()
+```
+
+获取文件大小（字节数)
+
+```python
+os.path.getsize()
+```
+
+获取文件名和后缀（完整文件名）
+
+```python
+os.path.basename()
+```
+
+
+

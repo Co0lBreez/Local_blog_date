@@ -1,44 +1,23 @@
 ---
-title: 常用软件操作
+title: Markdown笔记
 top: false
 cover: false
 toc: true
 mathjax: false
-date: 2022-08-03 05:44:18
+date: 2022-08-10 12:34:04
 author:
 img:
 coverImg:
 password:
-summary: 一些不用会忘，但以后可能还会用到的软件操作
-tags: 软件操作
-categories:
+summary: 一些Markdown相关的笔记
+tags: Markdown
+categories: 笔记
 ---
-# 常用软件操作
-## 前言
-
-在此页记录一些不用会忘，但以后可能还会用到的软件操作。
-
-大概会持续更新。
-
-## PhotoShop
-
-### 内容识别去水印
-
-1. 打开图片，选区工具选中（矩形、套索、钢笔）。
-2. 菜单栏：`选择` `色彩范围` ，调整颜色容差 ，利用吸管工具，尽可能地调整至黑白两色对比明显，水印清晰浮现为止。目的是为了创造一个选区，更精准地选中水印。完成后`确定`。
-3. 菜单栏：` 选择` `修改` `扩展` 。扩展值2~3个像素。
-4. `Shift+F5` 填充，内容识别。`Enter` 确定。
-5. 若效果微弱，`Shift+F5` `Enter` 多重复几次，前提是选区正确选中，不能少选，也不能多选太多……
-<!-- ![](/medias/images/posts/PS1.jpg) -->
-![原图](https://s2.loli.net/2022/08/03/KR4f6uwVyUNsG1c.jpg)
-<!-- ![](/medias/images/posts/PS2.jpg) -->
-![选中](https://s2.loli.net/2022/08/03/lFim5bCvqfyoJzM.jpg)
-<!-- ![](/medias/images/posts/PS3.jpg) -->
-![效果图](https://s2.loli.net/2022/08/03/yiRFUmZotnJTSGM.jpg)
-
----
-
-## Markdown 基本语法
+# Markdown笔记
+官方文档：
+1. [Markdown基本语法](https://markdown.com.cn/basic-syntax/)
+2. [Markdown扩展语法](https://markdown.com.cn/extended-syntax/)
+## 基本语法
 
 **换行但不分段（*不留空行*）**
 
@@ -74,7 +53,7 @@ categories:
 >_\_斜体_\_
 
 加粗和斜体在VS Code内也可以`Ctrl+B`和`Ctrl+I` 实现（需要VS Code内的 `Markdown All in One` 插件）。
-<font size=2>*某些浏览器好像不支持下划线 _ 渲染，所以用星号 \* 比较好一点，星号 \* 可以套娃使用。*</font>
+<!-- <font size=2>*某些浏览器好像不支持下划线 _ 渲染，所以用星号 \* 比较好一点，星号 \* 可以套娃使用。*</font> -->
 
 `Markdown All in One`：*All in One*
 `Markdown Preview Enhanced`：_实时预览_

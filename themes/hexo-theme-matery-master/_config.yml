@@ -149,8 +149,8 @@ recommend:
 
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
-favicon: https://s2.loli.net/2022/08/03/RTg1rwj6dUeaiSJ.png # /favicon.png
-logo: https://s2.loli.net/2022/08/03/RTg1rwj6dUeaiSJ.png # /medias/logo.png
+favicon: /favicon.png # /favicon.png
+logo: /medias/logo.png # /medias/logo.png
 
 # The configuration of the second button in the home banner,
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
@@ -236,7 +236,7 @@ clicklove:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: https://s2.loli.net/2022/08/03/RTg1rwj6dUeaiSJ.png  # /medias/avatar.png
+  avatar: /medias/avatar.png  # /medias/avatar.png
   career: 自遣人
   introduction: 得即高歌失即休，多愁多恨亦悠悠。今朝有酒今朝醉，明日愁来明日愁。
 
@@ -321,30 +321,30 @@ myGallery:
 
 # 下列图片使用网络图床`SM.MS`
 
-  - https://s2.loli.net/2022/08/08/9bCI1Dqnd72PVB5.jpg
-  - https://s2.loli.net/2022/08/08/2gaXHflep8cJ6wV.jpg
-  - https://s2.loli.net/2022/08/08/59nY7tvjTmLhNBO.jpg
-  - https://s2.loli.net/2022/08/08/XVeghmM95A8F3Ts.jpg
-  - https://s2.loli.net/2022/08/08/GmajKJsICAVk98O.jpg
-  - https://s2.loli.net/2022/08/08/Aekx54OwacJLZrS.jpg
-  - https://s2.loli.net/2022/08/08/mEXYc4tfghPpnFJ.jpg
-  - https://s2.loli.net/2022/08/08/vCrghfm3EqTb9Pl.jpg
-  - https://s2.loli.net/2022/08/08/lHqYWaFPv4bjXyn.jpg
-  - https://s2.loli.net/2022/08/08/zLimkN1WEoJbYRu.jpg
-  - https://s2.loli.net/2022/08/08/vhJ3F8jg9codpny.jpg
-  - https://s2.loli.net/2022/08/08/WQirBxeGPYNU9TC.jpg
-  - https://s2.loli.net/2022/08/08/D5Izqo6mOTuLfh1.jpg
-  - https://s2.loli.net/2022/08/08/z8enaxZsB3r2Rg7.jpg
-  - https://s2.loli.net/2022/08/08/7JmRXqp6UPOV2tI.jpg
-  - https://s2.loli.net/2022/08/08/hxWal3KrIBTSoJL.jpg
-  - https://s2.loli.net/2022/08/08/Mw9LUP53R1qWH7d.jpg
-  - https://s2.loli.net/2022/08/08/YGCZXrKdqboBvH3.jpg
-  - https://s2.loli.net/2022/08/08/WaXKTRBewQt1Emx.jpg
-  - https://s2.loli.net/2022/08/08/vhfB3oEbk6Fw8TS.jpg
-  - https://s2.loli.net/2022/08/08/FIAVjU5Yny3ZPGe.jpg
-  - https://s2.loli.net/2022/08/08/XeC9LnRstxFA3JS.jpg
-  - https://s2.loli.net/2022/08/08/ck9RYiWtglvsSVB.jpg
-  - https://s2.loli.net/2022/08/08/RpQjn7Sx9Ekg523.jpg
+  - https://s2.loli.net/2022/08/10/YwTVpn7UkMoBL5u.jpg
+  - https://s2.loli.net/2022/08/10/oT2iRNI3ubnfQxU.jpg
+  - https://s2.loli.net/2022/08/10/VsqaDjnxB1hToQX.jpg
+  - https://s2.loli.net/2022/08/10/hslkrntMZjmTVWD.jpg
+  - https://s2.loli.net/2022/08/10/j17o269OM8XCRVm.jpg
+  - https://s2.loli.net/2022/08/10/wdscCyRAWiYGpBx.jpg
+  - https://s2.loli.net/2022/08/10/87ZRYrEU6lNJ3PC.jpg
+  - https://s2.loli.net/2022/08/10/qR85zcejpHFDWKk.jpg
+  - https://s2.loli.net/2022/08/10/FnbNzAi8GEoxakr.jpg
+  - https://s2.loli.net/2022/08/10/YchwfyH5GupTeIs.jpg
+  - https://s2.loli.net/2022/08/10/DcaP4bGJF8Cv5Kr.jpg
+  - https://s2.loli.net/2022/08/10/KmsbTkfgedNx8Sl.jpg
+  - https://s2.loli.net/2022/08/10/pG8lok7XHfcFrbn.jpg
+  - https://s2.loli.net/2022/08/10/Z5hmNlqvJQXwptK.jpg
+  - https://s2.loli.net/2022/08/10/gOIshb6U2ulWar3.jpg
+  - https://s2.loli.net/2022/08/10/8NayUKejMQfcvDx.jpg
+  - https://s2.loli.net/2022/08/10/efj3UlNgQWJoP4k.jpg
+  - https://s2.loli.net/2022/08/10/N3U7ryFYwl68TBI.jpg
+  - https://s2.loli.net/2022/08/10/tpvXLEHhzyB7eIn.jpg
+  - https://s2.loli.net/2022/08/10/s3FaOXU9kT1ZJP8.jpg
+  - https://s2.loli.net/2022/08/10/ePVh7ZCsSFpURWr.jpg
+  - https://s2.loli.net/2022/08/10/B8jsyK21X7MnqAd.jpg
+  - https://s2.loli.net/2022/08/10/GuiKf8ydNoaTBV6.jpg
+  - https://s2.loli.net/2022/08/10/tgVxYlQnO6XIWBG.jpg
 
 
 
@@ -575,30 +575,30 @@ featureImages:
 
 # 下列图片使用网络图床`SM.MS`
 
-  - https://s2.loli.net/2022/08/08/9bCI1Dqnd72PVB5.jpg
-  - https://s2.loli.net/2022/08/08/2gaXHflep8cJ6wV.jpg
-  - https://s2.loli.net/2022/08/08/59nY7tvjTmLhNBO.jpg
-  - https://s2.loli.net/2022/08/08/XVeghmM95A8F3Ts.jpg
-  - https://s2.loli.net/2022/08/08/GmajKJsICAVk98O.jpg
-  - https://s2.loli.net/2022/08/08/Aekx54OwacJLZrS.jpg
-  - https://s2.loli.net/2022/08/08/mEXYc4tfghPpnFJ.jpg
-  - https://s2.loli.net/2022/08/08/vCrghfm3EqTb9Pl.jpg
-  - https://s2.loli.net/2022/08/08/lHqYWaFPv4bjXyn.jpg
-  - https://s2.loli.net/2022/08/08/zLimkN1WEoJbYRu.jpg
-  - https://s2.loli.net/2022/08/08/vhJ3F8jg9codpny.jpg
-  - https://s2.loli.net/2022/08/08/WQirBxeGPYNU9TC.jpg
-  - https://s2.loli.net/2022/08/08/D5Izqo6mOTuLfh1.jpg
-  - https://s2.loli.net/2022/08/08/z8enaxZsB3r2Rg7.jpg
-  - https://s2.loli.net/2022/08/08/7JmRXqp6UPOV2tI.jpg
-  - https://s2.loli.net/2022/08/08/hxWal3KrIBTSoJL.jpg
-  - https://s2.loli.net/2022/08/08/Mw9LUP53R1qWH7d.jpg
-  - https://s2.loli.net/2022/08/08/YGCZXrKdqboBvH3.jpg
-  - https://s2.loli.net/2022/08/08/WaXKTRBewQt1Emx.jpg
-  - https://s2.loli.net/2022/08/08/vhfB3oEbk6Fw8TS.jpg
-  - https://s2.loli.net/2022/08/08/FIAVjU5Yny3ZPGe.jpg
-  - https://s2.loli.net/2022/08/08/XeC9LnRstxFA3JS.jpg
-  - https://s2.loli.net/2022/08/08/ck9RYiWtglvsSVB.jpg
-  - https://s2.loli.net/2022/08/08/RpQjn7Sx9Ekg523.jpg
+  - https://s2.loli.net/2022/08/10/YwTVpn7UkMoBL5u.jpg
+  - https://s2.loli.net/2022/08/10/oT2iRNI3ubnfQxU.jpg
+  - https://s2.loli.net/2022/08/10/VsqaDjnxB1hToQX.jpg
+  - https://s2.loli.net/2022/08/10/hslkrntMZjmTVWD.jpg
+  - https://s2.loli.net/2022/08/10/j17o269OM8XCRVm.jpg
+  - https://s2.loli.net/2022/08/10/wdscCyRAWiYGpBx.jpg
+  - https://s2.loli.net/2022/08/10/87ZRYrEU6lNJ3PC.jpg
+  - https://s2.loli.net/2022/08/10/qR85zcejpHFDWKk.jpg
+  - https://s2.loli.net/2022/08/10/FnbNzAi8GEoxakr.jpg
+  - https://s2.loli.net/2022/08/10/YchwfyH5GupTeIs.jpg
+  - https://s2.loli.net/2022/08/10/DcaP4bGJF8Cv5Kr.jpg
+  - https://s2.loli.net/2022/08/10/KmsbTkfgedNx8Sl.jpg
+  - https://s2.loli.net/2022/08/10/pG8lok7XHfcFrbn.jpg
+  - https://s2.loli.net/2022/08/10/Z5hmNlqvJQXwptK.jpg
+  - https://s2.loli.net/2022/08/10/gOIshb6U2ulWar3.jpg
+  - https://s2.loli.net/2022/08/10/8NayUKejMQfcvDx.jpg
+  - https://s2.loli.net/2022/08/10/efj3UlNgQWJoP4k.jpg
+  - https://s2.loli.net/2022/08/10/N3U7ryFYwl68TBI.jpg
+  - https://s2.loli.net/2022/08/10/tpvXLEHhzyB7eIn.jpg
+  - https://s2.loli.net/2022/08/10/s3FaOXU9kT1ZJP8.jpg
+  - https://s2.loli.net/2022/08/10/ePVh7ZCsSFpURWr.jpg
+  - https://s2.loli.net/2022/08/10/B8jsyK21X7MnqAd.jpg
+  - https://s2.loli.net/2022/08/10/GuiKf8ydNoaTBV6.jpg
+  - https://s2.loli.net/2022/08/10/tgVxYlQnO6XIWBG.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则

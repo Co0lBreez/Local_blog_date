@@ -1,5 +1,5 @@
 ---
-title: 常用代码指令
+title: 正则表达式笔记
 top: false
 cover: false
 toc: true
@@ -9,26 +9,11 @@ author:
 img:
 coverImg:
 password:
-summary: 一些不用会忘，但以后可能还会用到的指令、代码
-tags: 常用代码指令
-categories: 代码指令
+summary: 一些正则表达式相关的笔记
+tags: 正则表达式
+categories: 笔记
 ---
-
-# 常用代码指令
-
- ## 前言
-
-在此页记录一些不用会忘，但以后可能还会用到的指令、代码。有些东西就是用时就要大量用到，就要去找、去查，但不用的话很快就会遗忘，然后遇到同样的问题，又要去找、去查……
-
-所以最好就是像记笔记一样，把这些东西简短摘录，或者说用自己的方式给记录下来。
-
-之前是本地文本文件+浏览器书签的方式。本地的数据说实话不太安全，系统只要一崩溃，不说其他盘能不能活，C盘的东西必定救不回来。我是非必要，东西不放C盘，然后定期同步重要文件，也就是上传至云端、网盘；因为吃过一次亏。但它麻烦呐，我也懒……
-
-浏览器书签虽然方便，但其实也麻烦（有点方便但只有一点），太分散、不集中，有很多自己不需要的内容、不便检索……
-
-大概就是这样。
-
-大概会持续更新。
+# 正则表达式笔记
 
 ## 正则表达式
 
@@ -240,130 +225,10 @@ categories: 代码指令
 >悠然心会，妙处难与君说。
 >——张孝祥《念奴娇·过洞庭》
 
-## Hexo
-
-### Hexo的基本操作
-
-**Hexo 的基本操作有4步：**
-
-```bash
-hexo clean	# 清理
-hexo generate	# 生成
-hexo server	# 生成本地服务器预览
-hexo deploy	# 本地预览没有问题后部署（部署至云端）
-```
-
-可简写为：
-
-```bash
-hexo clean && hexo generate && hexo server
-```
-
-`hexo deploy`只能单独部署（不能跟在其他命令后面）……好像
-
-<br>
-
-### 基于 gulp 插件的压缩优化
-
-```bash
-hexo clean && hexo generate && gulp && hexo generate
-```
-
-多了一步`压缩再生成`的步骤。完成后使用`hexo deploy`部署。
-
-### 更新Hexo与插件
-
-```bash
-npm update
-cnpm update
-```
-用国内镜像源的可使用`cnmp update`命令
-
-### 查看已安装插件列表
-
-```bash
-npm list
-cnpm list
-```
-卸载命令
-
-```bash
-npm uninstall hexo-qiniu-sync@1.4.7
-cnpm uninstall hexo-qiniu-sync@1.4.7
-```
-
-## Git
-
-### Git的基本操作
 
 
-```bash
-git init	# 初始化（创建本地库）
-git add README.md	# 添加 README.md
-git commit -m "我是提交备注"	# 备注，提交
-git branch -M main	# 创建 main 分支（branch）；如无此命令，默认为 master 分支
-git remote add origin git@github.com:Co0lBreez/Local_blog_date.git	# 添加远程源`origin`
-git push -u origin main	# 推送；无第4步，本地是 master 就把 main 换成 master
-```
 
-`git add .`可以添加当前目录下的所有文件。
 
-### 远程源相关操作
-
-**当我们想更换远程源推送时，我们可能会想到使用`添加远程源`命令：**
-
-```bash
-git remote add origin git@github.com:Co0lBreez/Co0lBreez.github.io.git
-```
-
-但这时就会报错：
-
-```bash
-$ git remote add origin git@github.com:Co0lBreez/Co0lBreez.github.io.git
-error: remote origin already exists.	# 远程源`origin`已存在
-```
-
-我们使用`git remote -v`命令查看远程库的信息：
-
-```bash
-$ git remote -v
-origin  git@github.com:Co0lBreez/Local_blog_date.git (fetch)	
-origin  git@github.com:Co0lBreez/Local_blog_date.git (push)	
-```
-
-我们需要先删除原有连接，它的命令是：
-
-```bash
-git remote rm origin	# 删除`origin`远程源
-```
-
-之后就可以继续操作了。  
-
-<br>
-
-其实也可以不用删除连接，直接创建不同的源，比如`origin1` `test`之类的，名字可以自己取：
-
-```bash
-git remote add test git@github.com:Co0lBreez/Co0lBreez.github.io.git
-```
-
-使用`git remote -v`查看：
-
-```bash
-$ git remote -v
-origin  git@github.com:Co0lBreez/Local_blog_date.git (fetch)
-origin  git@github.com:Co0lBreez/Local_blog_date.git (push)
-test    git@github.com:Co0lBreez/Co0lBreez.github.io.git (fetch)
-test    git@github.com:Co0lBreez/Co0lBreez.github.io.git (push)
-```
-
-这时我们的推送命令就可以这样写：
-
-```bash
-git push -u test master
-```
-
-但显然不如`git push`直接方便。不知道2个及以上的源，`git push`命令会不会有冲突。
 
 
 
