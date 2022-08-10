@@ -1,5 +1,5 @@
 ---
-title: 浮生日记-2022-08-06
+title: 浮生日记
 top: false
 cover: false
 toc: true
@@ -9,11 +9,12 @@ author:
 img:
 coverImg:
 password:
-summary: 浮生日记 2022.08.06
+summary: 浮生日记
 tags: 浮生日记
 categories: 浮生日记
 ---
-# 浮生日记-2022-08-06
+# 浮生日记
+
 ## 2022.08.06——关于食物链与分配的一些想法
 
 夏天是西瓜成熟的季节，俺家和村里其他人家一样，基本每年都会种点，到了这个季节也都有瓜可吃。

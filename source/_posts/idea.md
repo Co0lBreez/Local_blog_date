@@ -1,5 +1,5 @@
 ---
-title: 一些想法-2022-08-09
+title: 想法
 top: false
 cover: false
 toc: true
@@ -9,11 +9,11 @@ author:
 img:
 coverImg:
 password:
-summary: 承认客观差距，不搞极端平均；但也要反思、反对现实世界中的诸多不合理
+summary: 一些想法
 tags: 想法
 categories: 想法
 ---
-# 一些想法-2022-08-09
+# 一些想法
 
 ## 2022-08-09——关于平等的一些想法
 
