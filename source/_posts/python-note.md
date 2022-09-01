@@ -217,7 +217,7 @@ width_size = int(width * scale)
 # resize
 img_resize = img.resize((width_size, size))
 # 文件路径+`file_out`,质量
-img_resize.save(pic_out file_out_original_name, quality=pic_quality)
+img_resize.save(pic_out + file_out_original_name, quality=pic_quality)
 ```
 >`img.size` 的值是一个列表，如`print(img.size)` 会返回一个 `(1920,1080)`的值。 `img.size[0]` 的意思就是取其中的第一个值，也就是宽。
 
