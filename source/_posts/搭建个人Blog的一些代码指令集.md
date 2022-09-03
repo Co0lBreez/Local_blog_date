@@ -1,10 +1,11 @@
-
+---
 title: 搭建个人Blog的一些代码指令集
 date: 2022-07-31 05:39:06
 tags: 代码指令集
 summary: 本文主要是些命令（Git、Hexo）的集合，并不起指导作用，只是事后整理出来，供个人备忘
 password: 
 categories: 笔记
+---
 
 # 搭建个人Blog的一些代码指令集
 
