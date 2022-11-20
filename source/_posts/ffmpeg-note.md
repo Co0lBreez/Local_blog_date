@@ -124,3 +124,49 @@ ffmpeg -hide_banner -loglevel error -stats -f gdigrab -framerate 60 -offset_x 0 
 # 「-y」：覆盖同名文件
 # 「S:\Videos\Screen_record\out.mp4」：指定输出目录与文件名
 ```
+
+---
+## 2022/11/20 补
+
+源视频：
+【FFmpeg 最最强大的视频工具 (转码/压缩/剪辑/滤镜/水印/录屏/Gif/...)】 
+https://www.bilibili.com/video/BV1AT411J7cH/?share_source=copy_web&vd_source=8997d5d912d5b8af3155815ae693b3e9
+
+### 编码
+
+```batch
+ffmpeg -i input.avi -c:v libx264 output.mp4
+```
+
+`-c:v libx264` ：指定编码器为 libx264 （不指定也可以，默认为 libx264）
+
+### 编码速度
+
+```batch
+ffmpeg -i input.avi -c:v libx264 -preset xxx output.mp4
+```
+
+`xxx` 可选值如下：
+
+- ultrafast（编码最快，文件最大）
+- superfast
+- veryfast
+- faster
+- fast
+- medium（默认）
+- slow
+- slower
+- veryslow（编码最慢，文件最小）
+
+### crf（画质相关）
+
+```batch
+ffmpeg -i input.avi -c:v libx264 -crf 20 output.mp4
+```
+
+取值范围：`0-51`（无损-全损）
+
+常用区间：`19-28`
+
+> 该命令与 `-c copy ` 命令冲突（必须重新编码）
+

@@ -72,3 +72,21 @@ cnpm list
 npm uninstall hexo-qiniu-sync@1.4.7
 cnpm uninstall hexo-qiniu-sync@1.4.7
 ```
+
+## 报错处理
+
+```batch
+PS S:\Blog> hexo
+ERROR Cannot find module 'hexo' from 'S:\Blog'
+ERROR Local hexo loading failed in S:\Blog
+ERROR Try running: 'rm -rf node_modules && npm install --force'
+```
+
+许久不用 hexo 相关指令时可能就会像这样报错……
+
+运行如下命令重新安装一下：
+
+```batch
+npm install hexo-util --save
+```
+
