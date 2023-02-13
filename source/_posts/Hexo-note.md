@@ -20,6 +20,13 @@ categories: 笔记
 
 ## 常用操作
 
+**新建页面**
+
+```batch
+hexo new 标题
+```
+默认保存至`source/_posts`目录下
+
 **Hexo 的基本操作有4步：**
 
 ```batch
